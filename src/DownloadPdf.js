@@ -1,24 +1,24 @@
-// import React from 'react';
+// import Pdf from 'react-to-pdf';
+// import { useRef } from 'react';
 
-// import Pdf from 'react pdf'
+// export default function DownloadPdf() {
+// 	const ref = useRef();
 
-// const ref = React.createRef();
-
-// const PDF = (props) =>{
-//   return(
-//     <>
-//     <div ref={ref}>
-
-//     </div>
-//     <Pdf targetRef  = {ref} filename ="post.pdf">
-//     {({toPdf}) => <button onClick={toPdf}> Capture as PDF</button>}
-
-//     </Pdf>
-//     </>
-//   )
+// 	return (
+// 		<div className="App">
+// 			<Pdf targetRef={ref} filename="document.pdf">
+// 				{({ toPdf }) => (
+// 					<button onClick={toPdf} className="button">
+// 						Generate PDF
+// 					</button>
+// 				)}
+// 			</Pdf>
+// 			<div ref={ref}>{<h1>hi</h1>}</div>
+// 		</div>
+// 	);
 // }
 
 
 
 
-export default PDF
+
