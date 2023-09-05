@@ -68,14 +68,15 @@ body{
   height: 700px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: rgb(10, 6, 37);
   color: #f1f1f1;
 }
 .infocolor{
   background-color: #2980B9;
-  width: 50%;
-  height: 0px;
+  width:15%;
+  padding: 20px;
+  border-radius: 8px;
   border: #f1f1f1;
 }
 .indexStyle{
